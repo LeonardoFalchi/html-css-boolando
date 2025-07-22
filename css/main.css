@@ -38,8 +38,47 @@ body {
 /* container */
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 100px auto;
     /* debug*/
-    height: 800px;
     background-color: antiquewhite;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col {
+    width: calc((100% / 3) - (30px / 3));
+
+    /* debug */
+    background-color: aqua;
+    height: 200px;
+    border: 1px solid black;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    background-color: burlywood;
+}
+
+.nav-footer {
+    width: 80%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+/* debug*/
+background-color: chocolate;
 }
