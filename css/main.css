@@ -10,6 +10,11 @@ body {
     font-size: 17px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* header */
 .header {
@@ -33,6 +38,13 @@ body {
     height: 100%;
     font-weight: bold;
 }
+
+
+
+.logo img {
+    height: 35px;
+}
+
 
 /* container */
 .container {
