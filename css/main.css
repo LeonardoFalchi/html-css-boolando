@@ -74,6 +74,7 @@ a {
 .cuore {
     background-color: white;
     position: absolute;
+    z-index: 50;
     padding: 3px 14px;
     right: 0;
     top: 10px;
@@ -97,6 +98,7 @@ a {
 .two-labels ,
 .one-label {
     position: absolute;
+    z-index: 50;
     bottom: 40px;
     left: 0;
 }
@@ -114,15 +116,9 @@ a {
     display: block;
 }
 
-.brand {
-
-
-}
-
 .name {
     font-weight: bold;
     line-height: 1.3;
-
 }
 
 .discounted {
@@ -135,28 +131,32 @@ a {
 }
 
 
-
 /* footer */
 .footer {
+    background-color: black;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* debug */
-    background-color: burlywood;
 }
 
 .nav-footer {
     width: 80%;
     height: 100%;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
-    
+.informazioni span ,
+.social span {
+    font-weight: bold;
+    line-height: 1.5;
+}
 
-/* debug*/
-background-color: chocolate;
+.informazioni a {
+    font-size: 13px;
+    line-height: 1.5;
 }
