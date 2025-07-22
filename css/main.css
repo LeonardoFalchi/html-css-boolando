@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
@@ -38,20 +38,17 @@ body {
 .container {
     width: 80%;
     margin: 200px auto;
-    /* debug*/
-    background-color: antiquewhite;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 50px;
 }
 
 .col {
-    width: calc((100% / 3) - (30px / 3));
+    width: calc((100% / 3) - (100px / 3));
     min-height: 250px;
-    
 }
 
 .card {
@@ -65,11 +62,67 @@ body {
 .cuore {
     background-color: white;
     position: absolute;
-    padding: 2px 7px;
+    padding: 3px 14px;
     right: 0;
-    top: 5px;
+    top: 10px;
+    font-size: 35px;
+}
+
+.discount-label {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.sustainability-label {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 3px;  
+}
+
+.two-labels ,
+.one-label {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+.card .change-image {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50% , -50%);
+}
+
+.card:hover .change-image {
+    display: block;
+}
+
+.brand {
+
 
 }
+
+.name {
+    font-weight: bold;
+    line-height: 1.3;
+
+}
+
+.discounted {
+    color: red;
+    font-weight: bold;
+}
+
+.full {
+    text-decoration: line-through;
+}
+
+
 
 /* footer */
 .footer {
