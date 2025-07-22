@@ -14,12 +14,32 @@ body {
 /* header */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100px;
     background-color: #FF6900;
     color: white;
-
     /* debug*/
-    
+}
+
+.nav-bar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+     /* debug*/
+     background-color: blueviolet;
+     
+
+}
+
+/* container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* debug*/
+    height: 800px;
+    background-color: antiquewhite;
 }
