@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 
@@ -16,10 +16,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
     height: 100px;
+    top: 0;
+    width: 100%;
     background-color: #FF6900;
     color: white;
-    /* debug*/
 }
 
 .nav-bar {
@@ -28,17 +30,13 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-
-     /* debug*/
-     background-color: blueviolet;
-     
-
+    font-weight: bold;
 }
 
 /* container */
 .container {
     width: 80%;
-    margin: 100px auto;
+    margin: 200px auto;
     /* debug*/
     background-color: antiquewhite;
 }
@@ -51,11 +49,12 @@ body {
 
 .col {
     width: calc((100% / 3) - (30px / 3));
+    min-height: 250px;
+    
+}
 
-    /* debug */
-    background-color: aqua;
-    height: 200px;
-    border: 1px solid black;
+.card img {
+    max-width: 100%;
 }
 
 /* footer */
